@@ -20,6 +20,7 @@
                <LIBRARY NAME="libpmecho.so" OSTYPE="SOLARIS" TYPE="SERVER"/>
                <LIBRARY NAME="libpmecho.so" OSTYPE="LINUX" TYPE="SERVER"/>
                <LIBRARY NAME="libpmecho.a" OSTYPE="AIX" TYPE="SERVER"/>
+               <LIBRARY NAME="test.a" OSTYPE="testAIX" TYPE="testSERVER"/>
 </FUNCTION_GROUP>
         </PLUGIN>
     </REPOSITORY>
