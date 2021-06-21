@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!DOCTYPE POWERMART SYSTEM "plugin.dtd">
+<POWERMART>
+    <REPOSITORY CODEPAGE="us-ascii">
+        <PLUGIN NAME="Echo" ID="506001" VENDORNAME="Informatica"
+            VENDORID="1"
+            DESCRIPTION="Plugin for Expressions from Informatica">
+            <FUNCTION_GROUP ID="506002" NAME="INFA Function Group1"
+                COMPONENTVERSION="1.0.0"
+                DESCRIPTION="The functions group for my own Echo function"
+                NAMESPACE="">
+               <FUNCTION ID="506004" NAME="ECHO" FUNCTION_CATEGORY="Data Cleansing"/>
+               <LIBRARY NAME="pmecho.dll" OSTYPE="NT" TYPE="VALIDATION"/>
+               <LIBRARY NAME="llibpmecho.sl" OSTYPE="HPUX" TYPE="VALIDATION"/>
+               <LIBRARY NAME="libpmecho.so" OSTYPE="SOLARIS" TYPE="VALIDATION"/>
+               <LIBRARY NAME="libpmecho.so " OSTYPE="LINUX" TYPE="VALIDATION"/>
+               <LIBRARY NAME="libpmecho.a" OSTYPE="AIX" TYPE="VALIDATION"/>
+               <LIBRARY NAME="pmecho.dll" OSTYPE="NT" TYPE="SERVER"/>
+               <LIBRARY NAME="libpmecho.sl" OSTYPE="HPUX" TYPE="SERVER"/>
+               <LIBRARY NAME="libpmecho.so" OSTYPE="SOLARIS" TYPE="SERVER"/>
+               <LIBRARY NAME="libpmecho.so" OSTYPE="LINUX" TYPE="SERVER"/>
+               <LIBRARY NAME="libpmecho.a" OSTYPE="AIX" TYPE="SERVER"/>
+</FUNCTION_GROUP>
+        </PLUGIN>
+    </REPOSITORY>
+</POWERMART>
